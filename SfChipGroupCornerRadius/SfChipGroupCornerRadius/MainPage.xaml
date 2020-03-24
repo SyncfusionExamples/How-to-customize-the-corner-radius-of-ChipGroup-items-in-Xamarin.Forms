@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SfChipGroupCornerRadius"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             x:Class="SfChipGroupCornerRadius.MainPage">
+
+    <ContentPage.BindingContext>
+        <local:ViewModel/>
+    </ContentPage.BindingContext>
+    
+    <StackLayout>
+        <Label Text="Using ItemsSource" FontAttributes="Bold"/>
+
+        <!--CornerRadius for custom collection-->
+        <local:CustomChipGroup ItemsSource="{Binding Items}" DisplayMemberPath="Name" ChipTextColor="White" ChipBackgroundColor="DeepPink" CornerRadius="0"/>
+
+        <Label Text="Using ItemSource with ChipLayout" FontAttributes="Bold"/>
+
+        <!--CornerRadius for ChipLayout-->
+        <local:CustomChipGroup ItemsSource="{Binding Items}" DisplayMemberPath="Name" ChipTextColor="White" ChipBackgroundColor="DeepPink" CornerRadius="0">
+            <local:CustomChipGroup.ChipLayout>
+                <FlexLayout HorizontalOptions="Start" 
+                            VerticalOptions="Center" 
+                            Direction="Row"
+                            Wrap="Wrap" 
+                            JustifyContent="Start" 
+                            AlignContent="Start"
+                            AlignItems="Start" />
+            </local:CustomChipGroup.ChipLayout>
+        </local:CustomChipGroup>
+
+        <Label Text="Using Items property" FontAttributes="Bold"/>
+        
+        <!--CornerRadius for chip group Items-->
+        <local:CustomChipGroup ChipBackgroundColor="DeepPink" ChipTextColor="White" CornerRadius="0">
+            <local:CustomChipGroup.Items>
+                <buttons:SfChip Text="John" BackgroundColor="DeepPink" ShowCloseButton="True"/>
+                <buttons:SfChip Text="Mary" BackgroundColor="DeepPink" ShowCloseButton="True"/>
+                <buttons:SfChip Text="Jeny" BackgroundColor="DeepPink" ShowCloseButton="True"/>
+                <buttons:SfChip Text="Mark" BackgroundColor="DeepPink" ShowCloseButton="True"/>
+            </local:CustomChipGroup.Items>
+        </local:CustomChipGroup>
+    </StackLayout>
+</ContentPage>
