@@ -1,7 +1,7 @@
 # ChipGroup-CornerRadius
 This demo explains the way to customize the corner radius in ChipGroup.
 
-[How to customize the corner radius of Chipgroup items in Xamarin](https://www.syncfusion.com/kb/11282/how-to-customize-the-corner-radius-of-chipgroup-items-in-xamarin)
+[How to customize the corner radius of Chipgroup items in Xamarin](https://www.syncfusion.com/kb/11282/?utm_medium=listing&utm_source=github-examples)
 
 To set CornerRadius value for each chipgroup items in the Xamarin ChipGroup([**SfChipGroup**](https://help.syncfusion.com/cr/xamarin/Syncfusion.Buttons.XForms~Syncfusion.XForms.Buttons.SfChipGroup.html)) by the following steps.
 
