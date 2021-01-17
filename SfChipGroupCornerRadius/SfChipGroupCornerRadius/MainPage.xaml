@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:SfChipGroupCornerRadius"
+             xmlns:local="clr-namespace:SfChipGroupCornerRadius" 
              xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
              x:Class="SfChipGroupCornerRadius.MainPage">
 
     <ContentPage.BindingContext>
         <local:ViewModel/>
     </ContentPage.BindingContext>
-    
+
     <StackLayout>
         <Label Text="Using ItemsSource" FontAttributes="Bold"/>
 
@@ -31,7 +31,7 @@
         </local:CustomChipGroup>
 
         <Label Text="Using Items property" FontAttributes="Bold"/>
-        
+
         <!--CornerRadius for chip group Items-->
         <local:CustomChipGroup ChipBackgroundColor="DeepPink" ChipTextColor="White" CornerRadius="0">
             <local:CustomChipGroup.Items>

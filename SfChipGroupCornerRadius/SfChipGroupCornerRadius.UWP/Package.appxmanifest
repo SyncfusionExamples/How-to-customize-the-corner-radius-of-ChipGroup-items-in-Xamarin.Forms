@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="cc6fdf8e-510c-4543-a078-60e938967a47"
-    Publisher="CN=5cb80de4-228b-4a9a-8ea9-6f7c41cc3e3d"
+    Name="3a486340-5355-460d-91f2-ee6cf94b7f9b"
+    Publisher="CN=3ecb04ec-4c88-49c2-9068-a5421612a8b9"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>SfChipGroupCornerRadius.UWP</DisplayName>
-    <PublisherDisplayName>5cb80de4-228b-4a9a-8ea9-6f7c41cc3e3d</PublisherDisplayName>
+    <PublisherDisplayName>3ecb04ec-4c88-49c2-9068-a5421612a8b9</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
