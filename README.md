@@ -1,4 +1,4 @@
-# ChipGroup-CornerRadius
+# How to customize the corner radius of ChipGroup items in Xamarin.Forms
 This demo explains the way to customize the corner radius in ChipGroup.
 
 [How to customize the corner radius of Chipgroup items in Xamarin](https://www.syncfusion.com/kb/11282/?utm_medium=listing&utm_source=github-examples)
